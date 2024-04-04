@@ -7,9 +7,8 @@ This project is a simple blogging platform built using Express.js and EJS templa
 ### Features
 - **Create New Posts**: Users can create new blog posts by filling out a form with the title, author name, and content.
 - **Edit Posts**: Users can edit existing blog posts, updating the title, author name, and content.
-- **Preview Posts**: Users can preview their posts before publishing, ensuring they appear correctly.
+- **View Posts**: Users can view published blog posts.
 - **Delete Posts**: Users can delete unwanted posts from the blog.
-- **Responsive Design**: The application is designed to be responsive and accessible on various devices.
 
 ### Technologies Used
 - **Express.js**: Used for handling HTTP requests and routing.
