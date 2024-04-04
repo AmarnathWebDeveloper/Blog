@@ -1,0 +1,130 @@
+
+body{
+    font-family: "Courier New", Courier, monospace;
+    margin:0;
+    color:#11999E;
+    background-color: #E3FDFD;
+    font-family: "Roboto", sans-serif;
+}
+h1{
+    font-family: "Montserrat", sans-serif;
+}
+.specialHeading{
+    font-family: "Montserrat", sans-serif;
+}
+.timeDate{
+    font-size: medium;
+}
+.flex-container-time{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+.flex-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    background-color: #CBF1F5;
+    color:#40514E;
+    font-weight: 600;
+    height:30px;
+    border:1px solid black;
+    border-radius: 7px;
+    padding: 0px 10px;
+}
+input:hover {
+    background-color: #A6E3E9;
+}
+textarea:hover {
+    background-color: #A6E3E9;
+}
+textarea{
+    background-color: #CBF1F5;
+    color:#40514E;
+    font-size: 16px;
+    font-weight: 600;
+    border:1px solid black;
+    border-radius: 7px;
+    padding: 3px 10px;
+}
+#_title{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 500px;
+    gap:20px;
+    margin-bottom: 20px;
+}
+.grid-container1{
+    border: 2px dashed #40514E;
+    border-radius: 15px;
+    padding:10px;
+
+    display:grid;
+    width: 50%;
+}
+.flex-container-menu{
+    display: flex;
+    justify-content: center;
+    gap:25px;
+}
+hr{
+    margin:25px; 
+    width: 30px;
+    border:5px dotted #71C9CE;
+    border-bottom: 0;
+}
+img{
+    width: 400px;
+}
+p{
+    font-size: large;
+    font-weight: 500;
+}
+#_author{
+    font-size: 16px;
+}
+.grid-container-preview{
+    display: grid;
+    width: 75%;
+
+}
+button{
+    background-color: #CBF1F5;
+    border: 2px solid #A6E3E9;
+    color: #11999E;
+    font-size: large;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s, transform 0.2s;
+}
+
+button:hover{
+    background-color: #71c9ce; 
+    color: #fff; 
+    transform: scale(1.05);
+}
+#_back{
+    margin-top: 10px;
+}
+.pre-container {
+    overflow: auto; 
+    
+}
+
+pre {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    white-space: pre-wrap; 
+    word-wrap: break-word;
+}
+
+
+
+
